@@ -1,0 +1,169 @@
+.login-page{
+    height: 100vh;
+    width: 100%;
+    padding-top: 0;
+    // margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    &__header {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        
+        &-icon {
+            font-size: 400%;
+        }
+        
+        &-text {
+            display: inline-block;
+            font-size: 400%;
+        }
+    }
+
+    &__body{
+        margin: 0;
+        display:flex; 
+        flex-direction:column; 
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__footer{
+        padding: 1em 0;
+        color: #737373;
+        font-size: 10px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        clear: both;
+        margin-bottom: auto;
+    }
+
+}
+
+.login-form {
+    color: #1890ff;
+    width: 60%;
+    vertical-align: middle;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    &__body {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        &-action {
+            display: flex;
+            flex-direction: column;
+            
+            &-remember {
+                display: flex;
+                justify-content: center;
+            }
+            
+            &-forgotPassword {
+                display: flex;
+                justify-content: center;
+            }
+            
+            &-submit {
+                display: flex;
+                justify-content: center;
+
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    
+    &__footer {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        &-action {
+            width: 20%;       
+            border-top: 1px solid;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
+
+.login-form-mobile {
+    color: #1890ff;
+    width: 80%;
+    vertical-align: middle;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    &__body {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        &-action {
+            display: flex;
+            flex-direction: column;
+            
+            &-remember {
+                display: flex;
+                justify-content: center;
+            }
+            
+            &-forgotPassword {
+                display: flex;
+                justify-content: center;
+            }
+            
+            &-submit {
+                display: flex;
+                justify-content: center;
+
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    
+    &__footer {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        &-action {
+            width: 20%;       
+            border-top: 1px solid;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
+
+.ant-layout-header {
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.ant-layout {
+    background-color: white;
+}
+
+.ant-form-horizontal {
+    width: 100%;
+}
