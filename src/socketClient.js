@@ -41,7 +41,7 @@ export const socketMiddleware = storeAPI => next => action => {
                 userId : user._id
             }
         }
-        socket = io("http://localhost:4000", handshake)
+        socket = io(process.env.REACT_APP_SERVER_URL, handshake)
 
         next({type: STORE_SOCKET, payload: { socket }})
 
